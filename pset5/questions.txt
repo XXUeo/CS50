@@ -1,0 +1,30 @@
+0.  A type of lang disease
+
+1.  It returns measures of resources used by a particular process. 
+
+2.  There are three members, RUSAGE_SELF, RUSAGE_CHILDREN, and RUSAGE_THREAD.
+
+3.  They are pointers. By using pointer, we do not need to define variables all
+the time when it is in need. It also save memories used when it is excuted.
+
+4.  In for loop, it checks wether it only finds alphabetical characters and 
+apostrophes. When it is successful, it adds 1 to index. When index added is too
+much and exceeds the capacity, it does not add 1. If a word is digit number, it
+does not return 1. If it is not alphabet, digit, or apostrophes, it overwrites 
+the word as black. After that word array will be added to next so that each word
+will be stored in different word array.
+By the way, this for loop is so clever. I want to be the one who can write code 
+like that. 
+
+5.  If we use scanf, it will be really tough to pass the input data to 
+somewhere else. fgetc is more useful when we want to add more function toward
+user's input.
+
+6. I think because check's and load's parameter can be really stable using const.
+Passed parameter this time dictionary and word are better to be stable since it 
+is passed by fgetc and argc.
+
+7.  
+8.  TODO
+9.  TODO
+10. TODO

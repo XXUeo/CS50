@@ -1,0 +1,68 @@
+0.  How many different colors does each format support?
+    BMP = 16,777,216 colors
+    GIF = 256 colors
+    JPEG = 16,777,216 colors
+    PNG = 281,474,976,710,656 colors
+    
+1.  GIF
+2.  Lossy compression reduces a file by permanently deleting some information,
+    on the other hand lossless compression makes all bits remained so that all 
+    of the information is restorable. 
+    
+
+3.  JPEG
+
+4.  The system modifies the filename’s first character in the file’s directory
+    entry to signal that the file has been deleted and that the directory entry
+    can be recycled.On the same time, the system moves all of the file’s FAT
+    clusters to the hard drive’s list of free clusters. 
+
+5.  Use a proper sanitization tool which modify disk blocks as invalid.
+
+6.  It declares specified integer types as having a certain width.
+
+7.  It specifies what kind of data you want.
+
+8.  BYTE = 1 byte
+    DWORD = 4 bytes
+    LONG = 4 bytes
+    WORD = 2 bytes
+
+9.  BM
+
+10. bfSize is entire size of data in bytes.
+    biSize is for image header. it is size of the BITMAPINFOHEADER structure 
+    given in bytes.
+
+11. If biHeight is negative, the bitmap is a top-down DIB with the origin at
+    the upper left corner.
+
+12. biBitCount
+
+13. It may be null when os does not have enough memory or when there is no 
+    permission to access the dictionary the file is in.
+
+14. The third argument suggest the number of element. Since this time we run
+    use fread each 1 time, it is fine.
+
+15. 3 pixels
+
+16. Set the file position indicator for the stream to a new position.
+
+17. It indicates the offset is relative to the current file position.
+
+18. David J. Malan???
+
+
+
+
+
+
+
+
+
+
+
+
+
+T
